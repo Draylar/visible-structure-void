@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "visible-structure-void",
+  "version": "${version}",
+  "name": "Visible Structure Void",
+  "description": "Makes Structure Void blocks visible",
+  "authors": [
+    "Draylar"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/visible-structure-void/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "draylar.visiblestructurevoid.VisibleStructureVoid"
+    ]
+  },
+  "mixins": [
+    "visible-structure-void.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
